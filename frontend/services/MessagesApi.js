@@ -1,7 +1,7 @@
 import { Axios } from "axios";
 
 const axios = new Axios({
-  baseURL: "http://localhost:1337/api",
+  baseURL: "https://strapi-custom-controller.herokuapp.com/api",
   headers: {
     "Content-Type": "application/json",
   },
